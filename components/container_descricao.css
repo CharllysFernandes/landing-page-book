@@ -1,0 +1,24 @@
+.container_descricao-containerdescricao {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.container_descricao-icon {
+  width: 24px;
+  height: 24px;
+  padding: 4px;
+  border-radius: var(--dl-radius-radius-round);
+  background-color: var(--dl-color-gray-900);
+}
+.container_descricao-text {
+  color: #313131;
+  margin: 4px;
+  padding: 4px;
+  font-style: normal;
+  font-family: Arimo;
+  font-weight: 400;
+}
